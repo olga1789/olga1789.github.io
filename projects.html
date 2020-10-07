@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flask Parent Template</title>
+
+    <link rel="stylesheet" href="static/css/template.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="static/images/girl.png">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li>
+                        <a href="static/images/resume.pdf" target="_blank">
+                                Resume <img src="static/images/clip.png"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sidebar">
+            <div class="contact-links">
+                <a href="mailto:olga1789@gmail.com">
+                    <img src="static/images/gma.png">
+                </a>
+                <a href="https://www.linkedin.com/in/olga-n-739b06192" target="_blank">
+                    <img src="static/images/link.png">
+                </a>
+
+                <a href="https://github.com/olga1789" target="_blank">
+                    <img src="static/images/git.png">
+                </a>
+            </div>
+        </div>
+        <div id="card">
+            <div class="msg-col">
+                <!-- <h2>Bubble Sort Visualizer - coming soon</h2>
+                    <p>Created a bubble sort algorithm visualizer using CSS, HTML, and JavaScript.
+                        <a href="{{ url_for('sorting') }}" target="
+                        _blank">Click here</a> to view the end result.
+                    </p> -->
+                <h2>Profile Web Application</h2>
+                <p>
+                    Created my profile web application using Python, Flask, CSS and HTML.<br>
+                </p>
+
+                <h2>Software Engineering</h2>
+                <p> Group project. Created a web-based Point of Sale system that simulates an in-person transaction.<br> Designed and wrote UI.<br> Created a checkout page which simulates the payment process which generates a receipt.<br>
+                </p>
+                <h2>Data Science</h2>
+                <p>Group project. Used text mining and a Naïve Bayes classifier to determine the origin of a recipe based on its ingredients.
+                    <br> Used Java and MapReduce to assist with processing large data sets.<br>Obtained 70% correct predictions in our testing set.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
